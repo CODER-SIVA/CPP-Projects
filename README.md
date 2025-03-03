@@ -75,6 +75,40 @@ rustc matrix_multiplication.rs
 ./matrix_multiplication
 ```
 
+## Using the Makefile
+
+This repository includes a common Makefile that can build all projects with simple commands.
+
+### Available Commands
+
+```bash
+# Build all examples
+make
+
+# Build specific project types
+make c_examples      # Build C examples
+make cpp_examples    # Build C++ examples
+make rust_examples   # Build Rust examples
+
+# Build specific projects
+make malloc_demo
+make basic_multiplication
+make matrix_multiplication
+make rust_addition
+
+# Run specific examples
+make run_malloc
+make run_basic_mult
+make run_matrix_mult
+make run_rust_add
+
+# Clean up built files
+make clean
+
+# Display help
+make help
+```
+
 ## Repository Structure
 ```
 .
