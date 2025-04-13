@@ -26,9 +26,16 @@
 *.exe
 *.out
 *.app
+basic_multiplication
 
 # IDE specific files
 .vscode/
 .idea/
 *.swp
 .DS_Store
+
+# Build output
+build/
+
+# Old files
+Makefile.old
